@@ -45,13 +45,6 @@
  
 # puts "✅ Done seeding!"
 
-
-
-
-
-
-
-
 # FROM HARRY: ############################################
 
 # puts ":seedling: Seeding sneakers..."
@@ -61,16 +54,15 @@ User.destroy_all
 puts "Creating Users..."
 User1 = User.create(name: "Charlie")
 puts "Creating Sneakers..."
-Sneaker1 = Sneaker.create(name: "Nike air mag", price: 100000, release_date: 2011, link_url: "https://stockx.com/nike-air-mag-back-to-the-future")
-Sneaker2 = Sneaker.create(name: "Ben & Jerry Dunks", price: 1000, release_date: 2020, link_url: "https://stockx.com/nike-sb-dunk-low-ben-jerrys-chunky-dunky-ff-packaging")
+Sneaker1 = Sneaker.create(name: "Nike air mag", price: 100000, release_date: 2011, link_url: "https://stockx.com/nike-sb-dunk-low-ben-jerrys-chunky-dunky-ff-packaging")
 Sneaker3 = Sneaker.create(name: "Jeremy Scott Teddy Bear", price: 2000, release_date: 2008, link_url: "https://stockx.com/adidas-js-bear-jeremy-scott-teddy-bear")
-# Sneaker4 = Sneaker.create(name: "Adidas NMD HU", price: 1800, release_date: 2016)
-# Sneaker5 = Sneaker.create(name: "Converse Chuck Taylor All-Star 70 Hi", price: 125, release_date: 2008)
-# Sneaker6 = Sneaker.create(name: "Converse Chuck Taylor All-Star Hi", price: 60, release_date: 2011)
-# Sneaker7 = Sneaker.create(name: "fish bowl platform", price: $priceless, release_date: 1970)
-# Sneaker8 = Sneaker.create(name: "Chancla", price: 15, release_date: 0000)
-# Sneaker9 = Sneaker.create(name: "Jordan 1 Retro Low OG SP", price: 1400, release_date: 2020)
-# Sneaker10 = Sneaker.create(name: "Puma RS-Dreamer", price: 80, release_date: 2020)
+Sneaker4 = Sneaker.create(name: "Adidas NMD HU", price: 1800, release_date: 2016, link_url: "https://stockx.com/adidas-nmd-pharrell-hu-human-race-yellow")
+Sneaker5 = Sneaker.create(name: "Converse Chuck Taylor All-Star 70 Hi", price: 125, release_date: 2008, link_url: "https://stockx.com/converse-chuck-taylor-all-star-70s-hi-comme-des-garcons-play-black")
+Sneaker6 = Sneaker.create(name: "Converse Chuck Taylor All-Star Hi", price: 60, release_date: 2011, link_url: "https://stockx.com/converse-chuck-taylor-all-star-hi-black")
+Sneaker7 = Sneaker.create(name: "fish bowl platform", price: 100, release_date: 1970, link_url: "https://www.funkypair.com/pimp-02-men-disco-platform-with-floating-fish/")
+Sneaker8 = Sneaker.create(name: "Chancla", price: 15, release_date: 0000, link_url: "https://www.walmart.com/ip/Lavra-Women-s-Glitter-Flip-Flops-Bling-Thong-Sandals-Beach-Shoes/408716928?athbdg=L1600")
+Sneaker9 = Sneaker.create(name: "Jordan 1 Retro Low OG SP", price: 1400, release_date: 2020, link_url: "https://stockx.com/air-jordan-1-retro-low-og-sp-travis-scott-reverse-mocha")
+Sneaker10 = Sneaker.create(name: "Puma RS-Dreamer", price: 80, release_date: 2020, link_url: "https://stockx.com/puma-rs-dreamer-j-cole-black")
 puts "creating Wishlist..."
 Wishlist1 = Wishlist.create(user_id: 1, sneaker_id: 1)
 Wishlist2 = Wishlist.create(user_id: 1, sneaker_id: 2)

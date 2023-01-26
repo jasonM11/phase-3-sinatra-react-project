@@ -45,13 +45,6 @@
  
 # puts "✅ Done seeding!"
 
-
-
-
-
-
-
-
 # FROM HARRY: ############################################
 
 # puts ":seedling: Seeding sneakers..."
@@ -61,8 +54,7 @@ User.destroy_all
 puts "Creating Users..."
 User1 = User.create(name: "Charlie")
 puts "Creating Sneakers..."
-Sneaker1 = Sneaker.create(name: "Nike air mag", price: 100000, release_date: 2011, link_url: "https://stockx.com/nike-air-mag-back-to-the-future")
-Sneaker2 = Sneaker.create(name: "Ben & Jerry Dunks", price: 1000, release_date: 2020, link_url: "https://stockx.com/nike-sb-dunk-low-ben-jerrys-chunky-dunky-ff-packaging")
+Sneaker1 = Sneaker.create(name: "Nike air mag", price: 100000, release_date: 2011, link_url: "https://stockx.com/nike-sb-dunk-low-ben-jerrys-chunky-dunky-ff-packaging")
 Sneaker3 = Sneaker.create(name: "Jeremy Scott Teddy Bear", price: 2000, release_date: 2008, link_url: "https://stockx.com/adidas-js-bear-jeremy-scott-teddy-bear")
 Sneaker4 = Sneaker.create(name: "Adidas NMD HU", price: 1800, release_date: 2016,link_url: "https://stockx.com/adidas-nmd-pharrell-hu-human-race-yellow")
 Sneaker5 = Sneaker.create(name: "Converse Chuck Taylor All-Star 70 Hi", price: 125, release_date: 2008, link_url:"https://stockx.com/converse-chuck-taylor-all-star-70s-hi-comme-des-garcons-play-black")
